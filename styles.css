@@ -68,24 +68,18 @@ input {
 
 
 /*
-==========================
-Standard Navbar 
-==========================
+================================
+Horizontal - Navbar Design (Top)
+================================
 */ 
 
-ul {
+#navheader {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
 }
-
-/*
-==========================
-Horizontal - Navbar Design
-==========================
-*/ 
 
 li {
     float: left;
@@ -104,6 +98,23 @@ li a {
 }
 
 /*
-Currently trying to make it on the google as you already practiced
-*/
+===================================
+Horizontal - Navbar Design (Bottom)
+===================================
+*/ 
 
+#navfooter {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(220, 220, 220, 0.632);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer li a {
+     display: block;
+     color: rgb(53, 52, 52);
+}
