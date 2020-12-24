@@ -87,7 +87,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: rgba(33, 33, 33, 0.838);
     text-align: center;
     padding: 20px 10px;
     text-decoration: none;
@@ -95,6 +95,33 @@ li a {
 
 .active {
     background-color: none;
+}
+
+#signin {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    display: inline-block;
+    outline: none;
+    padding: 0 12px;
+    border-radius: 2px;
+    width: 75px;
+    height: 50px;
+    margin: 2px 20px;
+}
+
+.sign {
+    display: block;
+    color: white;
+    font-weight: bold;
+    position:
+}
+
+#setting {
+    width: 30px;
+    display: inline-flex;
+    height: 30px;
+    position: relative;
+    top: 13px
 }
 
 /*
