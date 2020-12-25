@@ -5,7 +5,4 @@ What have I Learned??
 - Created a navbar for both header & footer as well as move them around 
 - Learn proper formatting
 - Fixed the border for "Sign in" playing around with padding + marigins 
-
-Currently?
-- Google Search
-- I'm Feeling Lucky
+- Position buttons, style & scale
