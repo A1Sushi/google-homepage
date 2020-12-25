@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Google Homepage</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -21,10 +22,20 @@
         </header>
         
         <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></img>
+           <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></img>
         </div>
-        
-        <input type="text"> 
+
+        <div id="searchbar">
+            <form class="Search"> 
+                <input type="text">
+                <button type="submit"><i class="fa fa-search"></i></button>
+           </form>
+        </div>
+
+        <div class="TBS">
+            <button type="submit" id="GS"><a>Google Search</a></button>
+            <button type="submit" id="IFL"><a>I'm Feeling Lucky</a></button>
+        </div>
 
         <footer>
             <ul id="navfooter">
@@ -39,10 +50,3 @@
 
     </body> 
 </html>
-
-<!-- Currently learning how to format this navbar and move it around! 
-
-Also make sure to put the text inside the <a> so you can give it padding 
-
-Fixing border of sign in
--->
